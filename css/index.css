@@ -1,0 +1,301 @@
+body {
+  height: 100%;
+  background: url('../images/dark_bg.png') rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: center bottom;
+  background-attachment: fixed;
+  font: 400 0.75em/1.38 Helvetica;
+  color: rgb(95, 103, 111);
+}
+
+.image {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.login_box {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 400px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.panbutton {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 88px;
+  z-index: 13;
+  width: 28px;
+  height: 31px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background: url('../images/panel_sprite.png') rgb(34, 34, 34);
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  background-position: -78px 7px;
+}
+
+.selectv {
+  display: block;
+  position: relative;
+  float: left;
+  width: 66px;
+  margin-left: 7px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.selectv .element {
+  float: left;
+  width: 15px;
+  height: 15px;
+  background-image: url('../images/panel_sprite.png');
+  background-repeat: no-repeat;
+  background-size: auto auto;
+}
+
+.setting_panel {
+  position: fixed;
+  top: 56px;
+  left: -90px;
+  z-index: 20;
+  width: 114px;
+}
+.setting_panel_open {
+  position: fixed;
+  top: 56px;
+  left: 0px;
+  z-index: 20;
+  width: 114px;
+}
+
+.text {
+  display: inline-block;
+  float: left;
+  min-height: 1px;
+  margin-left: 5px;
+  font-size: 0.917em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(255, 255, 255);
+}
+
+.v1 {
+  z-index: 5;
+  height: 356px;
+  border: 1px solid rgb(107, 115, 121);
+  background-color: #838d95;
+}
+
+.v1 .image {
+  width: 196px;
+  margin-top: 28px;
+}
+.login_box.hidee {
+	display: none;
+}
+
+.v2 {
+  z-index: 11;
+  height: 338px;
+  background-color: #3475c8;
+}
+
+.v2 .image {
+  width: 178px;
+  margin-top: 31px;
+}
+
+
+._button {
+  display: block;
+  margin: 0 auto;
+  line-height: 1.38;
+  text-align: center;
+}
+
+._input {
+  display: block;
+  width: 351px;
+  height: 40px;
+  margin: 0 auto;
+  padding: 0 10px;
+  border-radius: 4px;
+  font-size: 1.083em;
+  font-weight: 400;
+  line-height: 1.38;
+}
+
+.v1 ._input {
+  border: 1px solid rgba(0, 0, 0, 0.53);
+  background-color: rgb(242, 242, 242);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.26) inset;
+  color: rgb(0, 0, 0);
+}
+
+.v2 ._input {
+  background-color: #2c67b3;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.08), 1px 1px 3px rgba(0, 0, 0, 0.26) inset;
+  color: #b2c7e1;
+}
+.v2 ._input::-webkit-input-placeholder {
+   color: rgba(178,199,225,0.55);
+}
+.v2 ._input:-moz-placeholder { /* Firefox 18- */
+   color: rgba(178,199,225,0.55);  
+}
+
+.v2 ._input::-moz-placeholder {  /* Firefox 19+ */
+   color: rgba(178,199,225,0.55);  
+}
+
+.v2 ._input:-ms-input-placeholder {  
+   color: rgba(178,199,225,0.55);  
+}
+
+.element-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 12;
+  width: 88px;
+  height: 50px;
+  border-bottom-right-radius: 4px;
+  background-color: rgb(34, 34, 34);
+}
+
+.element-2 {
+  background-position: 3px -26px;
+}
+
+.element-3 {
+  background-position: 3px -26px;
+}
+.selectedd {
+	background-position: 3px -2px !important;
+}
+.selectedd {
+	background-position: 3px -2px !important;
+}
+.selectv:hover {
+	background-color: grey;
+}
+
+.selectv-1 {
+  z-index: 19;
+  margin-top: 1px;
+}
+
+.selectv-2 {
+  clear: both;
+  z-index: 16;
+}
+
+._button-1 {
+  width: 351px;
+  height: 40px;
+  margin-top: 31px;
+  border-radius: 3px;
+  background: rgb(222, 222, 222);
+  background: -webkit-linear-gradient(270deg, #cfe3fe 0%, #8ea9cc 100%) rgb(222, 222, 222);
+  background:    -moz-linear-gradient(270deg, #cfe3fe 0%, #8ea9cc 100%) rgb(222, 222, 222);
+  background:      -o-linear-gradient(270deg, #cfe3fe 0%, #8ea9cc 100%) rgb(222, 222, 222);
+  background:     -ms-linear-gradient(270deg, #cfe3fe 0%, #8ea9cc 100%) rgb(222, 222, 222);
+  background:         linear-gradient(180deg, #cfe3fe 0%, #8ea9cc 100%) rgb(222, 222, 222);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16);
+  font-size: 1.333em;
+  font-weight: 400;
+  color: rgb(64, 93, 131);
+}
+._button-1:hover {
+  border-radius: 3px;
+  background: rgba(222,222,222,1);
+  background: -webkit-linear-gradient(270deg, #cfe3fe 0%, #cfe3fe 100%) rgb(222, 222, 222);
+  background:    -moz-linear-gradient(270deg, #cfe3fe 0%, #cfe3fe 100%) rgb(222, 222, 222);
+  background:      -o-linear-gradient(270deg, #cfe3fe 0%, #cfe3fe 100%) rgb(222, 222, 222);
+  background:     -ms-linear-gradient(270deg, #cfe3fe 0%, #cfe3fe 100%) rgb(222, 222, 222);
+  background:         linear-gradient(180deg, #cfe3fe 0%, #cfe3fe 100%) rgb(222, 222, 222);
+  box-shadow: none;
+  font-size: 1.333em;
+  font-weight: 400;
+  color: rgb(64, 93, 131);
+  -webkit-transition: background 700ms ease;
+-moz-transition: background 700ms ease;
+-ms-transition: background 700ms ease;
+-o-transition: background 700ms ease;
+transition: background 700ms ease;
+}
+._button-2 {
+  width: 100%;
+  height: 32px;
+  margin-top: 32px;
+  background-color: rgb(52, 111, 187);
+  font-size: 1em;
+  color: rgb(54, 93, 142);
+}
+._button-2:hover {
+	background-color: rgba(39,88,153,1);
+	color: white;
+	-webkit-transition: background 500ms ease;
+-moz-transition: background 500ms ease;
+-ms-transition: background 500ms ease;
+-o-transition: background 500ms ease;
+transition: background 500ms ease;
+}
+._button-3 {
+  width: 351px;
+  height: 46px;
+  margin-top: 31px;
+  border: 1px solid rgb(85, 91, 96);
+  border-radius: 3px;
+  background: -webkit-linear-gradient(270deg, #626a73 0%, #5b636b 100%) rgb(222, 222, 222);
+  background:    -moz-linear-gradient(270deg, #626a73 0%, #5b636b 100%) rgb(222, 222, 222);
+  background:      -o-linear-gradient(270deg, #626a73 0%, #5b636b 100%) rgb(222, 222, 222);
+  background:     -ms-linear-gradient(270deg, #626a73 0%, #5b636b 100%) rgb(222, 222, 222);
+  background:         linear-gradient(180deg, #626a73 0%, #5b636b 100%) rgb(222, 222, 222);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16);
+  font-size: 1.333em;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+._button-3:hover {
+  background: #383d43;
+
+}
+
+._button-4 {
+  width: 99.9999999999%;
+  height: 32px;
+  margin-top: 33px;
+  background-color: rgb(118, 128, 135);
+  font-size: 1em;
+  color: rgb(95, 103, 111);
+}
+._button-4:hover {
+
+}
+._input-1 {
+  margin-top: 38px;
+}
+
+._input-2 {
+  margin-top: 18px;
+}
+
+._input-3 {
+  margin-top: 38px;
+}
+
+._input-4 {
+  margin-top: 28px;
+}
