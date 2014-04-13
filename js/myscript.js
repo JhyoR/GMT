@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-$( "div.setting_panel" ).click(function() {
+$( ".setting_panel" ).click(function() {
 $( this ).toggleClass( "setting_panel_open" );
 });
 
