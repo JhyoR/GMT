@@ -1,4 +1,5 @@
 $(document).ready(function() {
+event.preventDefault();
 
 $( ".setting_panel" ).click(function() {
 $( this ).toggleClass( "setting_panel_open" );
